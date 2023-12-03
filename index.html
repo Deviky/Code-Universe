@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./image/fav.jpg" type="image/png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Code Universe</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__navigation navigation">
+                <button type="button" class="header__menu-switcher menu-switcher" >
+                    <img src="./image/line.svg" alt class="menu-switcher__line">
+                    <img src="./image/line.svg" alt class="menu-switcher__line">
+                    <img src="./image/line.svg" alt class="menu-switcher__line">
+                </button>
+                <ul class="navigation__list">
+                    <li><a href="./index.html" class="navigation__link">Главная</a></li>
+                    <li><a href="./contacts.html" class="navigation__link">Информация о нас</a></li>
+                    <li><a href="./form.html" class="navigation__link">Добавить новое</a></li>
+                    <li><a href="./forum.html" class="navigation__link">Форум</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="main-banner">
+            <div class="main-banner__container container">
+                <div class="main-banner__content">
+                    <div class="main-banner__heading">
+                        <h1 class="man-banner__title title-h1">Code Universe</h1>
+                        <p class="main-banner__text text">Добро пожаловать в мир современных приложений для разработки! На данном сайте вы сможете познакомиться с различными интсрументами, которые помогут вам в создании потрясающих проектов.</p>
+                    </div>
+                    <div class="main-banner__buttons">
+                        <a href="#app-list" class="button">Узнать о приложениях</a>
+                        <a href="./forum.html" class="button">Перейти на форум</a>
+                    </div>
+                </div>
+                <aside class="main-banner__sidebar sidebar">
+                    <h2 class="sidebar__title">Популярные приложения</h2>
+                    <div class="sidebar__list">
+                        <a href="./unityform.html" class="sidebar__item">
+                            <div class="sidebar__image image-wrapper">
+                                <img src="image/unityico.png" alt="" class="image-wrapper__image">
+                            </div>
+                            <h3 class="sidebar__item-title">
+                                Unity
+                            </h3>
+                        </a>
+                        <a href="./vsform.html" class="sidebar__item">
+                            <div class="sidebar__image image-wrapper">
+                                <img src="image/vsico.png" alt="" class="image-wrapper__image">
+                            </div>
+                            <h3 class="sidebar__item-title">
+                                Visual Studio
+                            </h3>
+                        </a>
+                        <a href="./blenderform.html" class="sidebar__item">
+                            <div class="sidebar__image image-wrapper">
+                                <img src="image/blenderico.png" alt="" class="image-wrapper__image">
+                            </div>
+                            <h3 class="sidebar__item-title">
+                                Blender 3D
+                            </h3>
+                        </a>
+                        
+                     </div>
+                </aside>
+            </div>
+        </section>
+        <section class="additional-block">
+            <div class="additional-block__container container">
+                <div class="additional-block__body">
+                    <h2 class="additional-block__title title-h2">Знаете приложение <br>
+                        которого тут нет?</h2>
+                    <a href="./form.html" class="additional-block__button button">ОСТАВЬТЕ ЗАЯВКУ ЗДЕСЬ</a>
+                </div>
+            </div>
+        </section>
+        <section class="app-list" id="app-list">
+            <div class="app-list__container container">
+                <div class="app-list__heading">
+                    <h2 class="title-h2">Список приложений</h2>
+                    <div class="app-list__filters">
+                        <div class="filter">
+                            <label class="filter__label" for="category">Категория:</label>
+                            <select class="filter__select" name="category">
+                                <option value="Все">Все</option>
+                                <option value="Редактор кода">Редактор кода</option>
+                                <option value="3D Моделирование">3D Моделирование</option>
+                                <option value="Игровой движок">Игровой движок</option>
+                            </select>
+                        </div>
+                        <div class="filter">
+                            <label class="filter__label" for="price">Стоимость:</label>
+                            <select class="filter__select" name="price">
+                                <option value="Все">Все</option>
+                                <option value="Бесплатный">Бесплатные</option>
+                                <option value="Платный">Платные</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-list__body">
+                    <article class="app-card">
+                        <div class="app-card__image image-wrapper">
+                            <img src="image/vsico.png" alt="" class="image-wrapper__image">
+                        </div>
+                        <div class="app-card__content">
+                            <h3 class="app-card__title title-h3">Visual Studio</h3>
+                            <p class="text">Мощная интегрированная среда разработки (IDE), предоставляющая широкий спектр инструментов для создания разнообразных приложений, включая веб-приложения, мобильные приложения, игры и многое другое. Это бесплатный редактор кода, который стал незаменимым инструментом для разработчиков.</p>
+                            <div class="app-card__add-info">
+                                <div class="app-card__specs">
+                                    <p class="app-card__spec categ">Редактор кода</p>
+                                    <p class="app-card__spec pric">Бесплатный</p>
+                                </div>
+                                <a href="./vsform.html" class="button">Читать</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="app-card">
+                        <div class="app-card__image image-wrapper">
+                            <img src="image/unityico.png" alt="" class="image-wrapper__image">
+                        </div>
+                        <div class="app-card__content">
+                            <h3 class="app-card__title title-h3">Unity</h3>
+                            <p class="text">Популярный игровой движок и среда разработки, позволяющая создавать высококачественные 2D и 3D игры для различных платформ. С его помощью разработчики могут воплощать свои творческие идеи, строить впечатляющие виртуальные миры и создавать захватывающие визуальные эффекты.</p>
+                            <div class="app-card__add-info">
+                                <div class="app-card__specs">
+                                    <p class="app-card__spec categ">Игровой движок</p>
+                                    <p class="app-card__spec pric">Бесплатный</p>
+                                </div>
+                                <a href="./unityform.html" class="button">Читать</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="app-card">
+                        <div class="app-card__image image-wrapper">
+                            <img src="image/c3ico.png" alt="" class="image-wrapper__image">
+                        </div>
+                        <div class="app-card__content">
+                            <h3 class="app-card__title title-h3">Construct 3</h3>
+                            <p class="text">Удобный инструмент для создания игр без необходимости в программировании. С его помощью вы можете легко проектировать 2D-игры, создавать интересный геймплей и взаимодействовать с различными платформами. Подходит как для новичков, так и для опытных разработчиков.</p>
+                            <div class="app-card__add-info">
+                                <div class="app-card__specs">
+                                    <p class="app-card__spec categ">Игровой движок</p>
+                                    <p class="app-card__spec pric">Платный</p>
+                                </div>
+                                <a href="./c3form.html" class="button">Читать</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="app-card">
+                        <div class="app-card__image image-wrapper">
+                            <img src="image/blenderico.png" alt="" class="image-wrapper__image">
+                        </div>
+                        <div class="app-card__content">
+                            <h3 class="app-card__title title-h3">Blender 3D</h3>
+                            <p class="text">Приложение для 3D-моделирования и анимации. С открытым исходным кодом и богатым функционалом, Blender предоставляет возможность создавать высококачественные трехмерные модели, анимации и визуализации. Подходит для профессионалов и тех, кто только начинает погружаться в мир 3D-графики.</p>
+                            <div class="app-card__add-info">
+                                <div class="app-card__specs">
+                                    <p class="app-card__spec categ">3D Моделирование</p>
+                                    <p class="app-card__spec pric">Бесплатный</p>
+                                </div>
+                                <a href="./blenderform.html" class="button">Читать</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <nav class="footer__navigation navigation">
+                <ul class="navigation__list">
+                    <li><a href="./index.html" class="navigation__link">Главная</a></li>
+                    <li><a href="./contacts.html" class="navigation__link">Информация о нас</a></li>
+                    <li><a href="./form.html" class="navigation__link">Добавить новое</a></li>
+                    <li><a href="./forum.html" class="navigation__link">Форум</a></li>
+                </ul>
+            </nav>
+            <span class="footer__name">Code Universe 2023</span>
+            <div class="soc-media">
+                <div class="soc-media__item">
+                    <img src="./image/vk.svg" alt="" class="soc-media__image">
+                    <p class="soc-media__name">Наш Vk</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script src="./js/cards.js"></script>
+</body>
+</html>

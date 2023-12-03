@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./image/fav.jpg" type="image/png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/article.css">
+    <title>Construct 3</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__navigation navigation">
+                <button type="button" class="header__menu-switcher menu-switcher">
+                    <img src="./image/line.svg" alt class="menu-switcher__line">
+                    <img src="./image/line.svg" alt class="menu-switcher__line">
+                    <img src="./image/line.svg" alt class="menu-switcher__line">
+                </button>
+                <ul class="navigation__list">
+                    <li><a href="./index.html" class="navigation__link">Главная</a></li>
+                    <li><a href="./contacts.html" class="navigation__link">Информация о нас</a></li>
+                    <li><a href="./form.html" class="navigation__link">Добавить новое</a></li>
+                    <li><a href="./forum.html" class="navigation__link">Форум</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__container container">
+            <div class="main__content main-content">
+                <div class="main-content__heading">
+                    <h1 class="main-content__title title-h1">Construct 3</h1>
+                    <div class="main-content__add-info">
+                        <div class="main-content__add-info-item add-info-item">
+                            <p class="add-info-item__cat">Категория:</p>
+                            <p class="add-info-item__inf">Игровой движок</p>
+                        </div>
+                        <div class="main-content__add-info-item add-info-item">
+                            <p class="add-info-item__cat">Стоимость:</p>
+                            <p class="add-info-item__inf">32-470$</p>
+                        </div>
+                        <div class="main-content__add-info-item add-info-item">
+                            <p class="add-info-item__cat">Официальный сайт:</p>
+                            <a href="https://www.construct.net/" class="add-info-item__inf">Ссылка</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-content__body">
+                    <p class="main-content__text text">Construct 3 — это удобный и мощный инструмент для создания 2D-игр без необходимости программирования. Интерфейс основан на принципе перетаскивания и соединения элементов, что делает процесс разработки доступным для всех, даже без глубоких знаний программирования. С Construct 3 можно создавать разнообразные игры, от простых аркад до сложных логических загадок.</p>
+                </div>
+                <div class="main-content__slider swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide image-wrapper">
+                            <img class="swiper-image image-wrapper__image" src="image/сscreenshot1.png" alt="">
+                        </div>
+                        <div class="swiper-slide image-wrapper">
+                            <img class="swiper-image image-wrapper__image" src="image/сscreenshot2.png" alt="">
+                        </div>
+                        <div class="swiper-slide image-wrapper">
+                            <img class="swiper-image image-wrapper__image" src="image/сscreenshot3.png" alt="">
+                        </div>
+                    </div>
+                    <!-- Navigation buttons -->
+                    <img src="./image/arr-prev.svg" class="button-prev swiper-btn">
+                    <img src="./image/arr-next.svg" class="button-next swiper-btn">
+                </div>
+            </div>
+            <aside class="main-banner__sidebar sidebar">
+                <h2 class="sidebar__title">Другие приложения</h2>
+                <div class="sidebar__list">
+                    <a href="./vsform.html" class="sidebar__item">
+                        <div class="sidebar__image image-wrapper">
+                            <img src="image/vsico.png" alt="" class="image-wrapper__image">
+                        </div>
+                        <h3 class="sidebar__item-title">Visual Studio</h3>
+                    </a>
+                    <a href="./blenderform.html" class="sidebar__item">
+                        <div class="sidebar__image image-wrapper">
+                            <img src="image/blenderico.png" alt="" class="image-wrapper__image">
+                        </div>
+                        <h3 class="sidebar__item-title">Blender 3D</h3>
+                    </a>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <nav class="footer__navigation navigation">
+                <ul class="navigation__list">
+                    <li><a href="./index.html" class="navigation__link">Главная</a></li>
+                    <li><a href="./contacts.html" class="navigation__link">Информация о нас</a></li>
+                    <li><a href="./form.html" class="navigation__link">Добавить новое</a></li>
+                    <li><a href="./forum.html" class="navigation__link">Форум</a></li>
+                </ul>
+            </nav>
+            <span class="footer__name">Code Universe 2023</span>
+            <div class="soc-media">
+                <div class="soc-media__item">
+                    <img src="./image/vk.svg" alt="" class="soc-media__image">
+                    <p class="soc-media__name">Наш Vk</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/sidebar.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./image/fav.jpg" type="image/png">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/forums.css">
+    <title>Форум сайта</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__navigation navigation">
+                <button type="button" class="header__menu-switcher menu-switcher" >
+                    <img src="./image/line.svg" alt class="menu-switcher__line">
+                    <img src="./image/line.svg" alt class="menu-switcher__line">
+                    <img src="./image/line.svg" alt class="menu-switcher__line">
+                </button>
+                <ul class="navigation__list">
+                    <li><a href="./index.html" class="navigation__link">Главная</a></li>
+                    <li><a href="./contacts.html" class="navigation__link">Информация о нас</a></li>
+                    <li><a href="./form.html" class="navigation__link">Добавить новое</a></li>
+                    <li><a href="./forum.html" class="navigation__link">Форум</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="heading">
+            <div class="heading__container container">
+                <h1 class="heading__title title-h1">Форум сайта</h1>
+                <div class="heading__text-blocks">
+                    <p class="text heading__l-text">Добро пожаловать на наш форум! Здесь вы можете обсудить различные темы, делиться опытом и узнавать новое. Присоединяйтесь к общению с нашим сообществом.</p>
+                    <p class="text heading__r-text">Пожалуйста, на нашем форуме соблюдайте нормы приличия в общении. Благодарим!</p>
+                </div>
+            </div>
+        </section>
+        <section class="thread">
+            <div class="thread__container container">
+                <h2 class="thread__title title-h2">Тред</h2>
+                <div class="thread__body">
+                    <article class="thread__post post">
+                        <div class="post__image image-wrapper">
+                            <img src="./image/userico.png" alt="User1" class="image-wrapper__image">
+                        </div>
+                        <div class="post__content">
+                            <div class="post__heading">
+                                <h3 class="post__title title-h3">
+                                    Денис
+                                </h3>
+                                <span class="post__subtitle">Опубликовано: 24.08.2023</span>
+                            </div>
+                            <p class="post__text text">Привет, друзья! Я новичок на этом форуме. Расскажите, чем здесь занимаются, какие темы обсуждаются? Буду рад вашим ответам!</p>
+                            <div class="post__footer">
+                                <div class="post__votes">
+                                    <img src="./image/upvote.svg" alt="" class="post__vote upvote">
+                                    <span class="post__votes-count">0</span>
+                                    <img src="./image/downvote.svg" alt="" class="post__vote downvote">
+                                </div>
+                                <button class="post__button button">Ответить</button>
+                            </div>
+                            <div class="post__comments">
+                                <article class="thread__post post">
+                                    <div class="post__image image-wrapper">
+                                        <img src="./image/userico.png" alt="User2" class="image-wrapper__image">
+                                    </div>
+                                    <div class="post__content">
+                                        <div class="post__heading">
+                                            <h3 class="post__title title-h3">
+                                                Олег
+                                            </h3>
+                                            <span class="post__subtitle">Опубликовано: 25.08.2023</span>
+                                        </div>
+                                        <p class="post__text text">Привет, Денис! Добро пожаловать на форум! Мы обсуждаем различные темы, связанные с программированием и разработкой. Если у тебя есть вопросы, не стесняйся задавать их.</p>
+                                        <div class="post__footer">
+                                            <div class="post__votes">
+                                                <img src="./image/upvote.svg" alt="" class="post__vote upvote">
+                                                <span class="post__votes-count">0</span>
+                                                <img src="./image/downvote.svg" alt="" class="post__vote downvote">
+                                            </div>
+                                            <button class="post__button button">Ответить</button>
+                                        </div>
+                                        <div class="post__comments">
+                                            <article class="thread__post post">
+                                                <div class="post__image image-wrapper">
+                                                    <img src="./image/userico.png" alt="User3" class="image-wrapper__image">
+                                                </div>
+                                                <div class="post__content">
+                                                    <div class="post__heading">
+                                                        <h3 class="post__title title-h3">
+                                                            Иван
+                                                        </h3>
+                                                        <span class="post__subtitle">Опубликовано: 25.08.2023</span>
+                                                    </div>
+                                                    <p class="post__text text">Привет, Денис и Олег! Тоже решил заскочить на форум. Что думаете о последних новостях в мире технологий?</p>
+                                                    <div class="post__footer">
+                                                        <div class="post__votes">
+                                                            <img src="./image/upvote.svg" alt="" class="post__vote upvote">
+                                                            <span class="post__votes-count">0</span>
+                                                            <img src="./image/downvote.svg" alt="" class="post__vote downvote">
+                                                        </div>
+                                                        <button class="post__button button">Ответить</button>
+                                                    </div>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="thread__post post">
+                        <div class="post__image image-wrapper">
+                            <img src="./image/userico.png" alt="User1" class="image-wrapper__image">
+                        </div>
+                        <div class="post__content">
+                            <div class="post__heading">
+                                <h3 class="post__title title-h3">
+                                    Ева
+                                </h3>
+                                <span class="post__subtitle">Опубликовано: 21.08.2023</span>
+                            </div>
+                            <p class="post__text text">Всем доброго времени суток. Оставляла заявку на новое приложение, как скоро оно появится на сайте? </p>
+                            <div class="post__footer">
+                                <div class="post__votes">
+                                    <img src="./image/upvote.svg" alt="" class="post__vote upvote">
+                                    <span class="post__votes-count">0</span>
+                                    <img src="./image/downvote.svg" alt="" class="post__vote downvote">
+                                </div>
+                                <button class="post__button button">Ответить</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <nav class="footer__navigation navigation">
+                <ul class="navigation__list">
+                    <li><a href="./index.html" class="navigation__link">Главная</a></li>
+                    <li><a href="./contacts.html" class="navigation__link">Информация о нас</a></li>
+                    <li><a href="./form.html" class="navigation__link">Добавить новое</a></li>
+                    <li><a href="./forum.html" class="navigation__link">Форум</a></li>
+                </ul>
+            </nav>
+            <span class="footer__name">Code Universe 2023</span>
+            <div class="soc-media">
+                <div class="soc-media__item">
+                    <img src="./image/vk.svg" alt="" class="soc-media__image">
+                    <p class="soc-media__name">Наш Vk</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/main.js"></script>
+    <script src="./js/forum.js"></script>
+</body>
+</html>
