@@ -193,7 +193,7 @@
   padding: 20px 25px;
   box-shadow: 4px 4px 15px 0px rgba(12, 34, 41, 0.4);
 }
-@media (max-width: 767px) {
+@media (max-width: 820px) {
   .additional-block__button {
     font-size: 20px;
   }
