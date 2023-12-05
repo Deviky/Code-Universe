@@ -1,13 +1,13 @@
-const menuSwitcherButton = document.querySelector('.menu-switcher');
-const navigation = document.querySelector('.navigation__list');
+const menuSwitcherButton = document.querySelector('.menu');
+const navigation = document.querySelector('.nav__list');
 menuSwitcherButton.addEventListener('click', (e) => {
-    navigation.classList.toggle('navigation__list--opened');
-    menuSwitcherButton.classList.toggle('menu-switcher--opened');
+    navigation.classList.toggle('nav__list--opened');
+    menuSwitcherButton.classList.toggle('menu--opened');
 });
 
-navigation.querySelectorAll('.navigation__link').forEach(link => {
+navigation.querySelectorAll('.nav__s').forEach(link => {
     link.addEventListener('click', e => {
-        navigation.classList.toggle('navigation__list--opened');
-        menuSwitcherButton.classList.toggle('menu-switcher--opened');
+        navigation.classList.toggle('nav__list--opened');
+        menuSwitcherButton.classList.toggle('menu--opened');
     })
 })
