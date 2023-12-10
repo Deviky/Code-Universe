@@ -28,7 +28,7 @@
 .heading__l-text {
   max-width: 522px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .heading__l-text {
     max-width: 90%;
   }
@@ -36,7 +36,7 @@
 .heading__r-text {
   max-width: 305px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .heading__r-text {
     max-width: 90%;
   }
@@ -65,7 +65,7 @@
   flex-shrink: 0;
   background: #5AB4CF;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .post__image {
     width: 76px;
     height: 76px;
@@ -126,7 +126,7 @@
 .post__button {
   padding: 5px 15px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .post__comments {
     margin-left: -45px;
   }

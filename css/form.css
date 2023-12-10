@@ -126,7 +126,7 @@
   font-weight: 500;
   line-height: normal;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .step-3__ready {
     font-size: 36px;
   }

@@ -35,7 +35,7 @@
   line-height: normal;
   letter-spacing: 0.48px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .footer__name {
     font-size: 20px;
   }
@@ -61,7 +61,7 @@
   font-weight: 600;
   line-height: normal;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .soc-media__name {
     font-size: 20px;
   }
